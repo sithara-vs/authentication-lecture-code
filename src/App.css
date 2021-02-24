@@ -1,0 +1,58 @@
+.App {
+  text-align: center;
+}
+
+h1 {
+  margin: 0;
+}
+
+.main-header {
+  height: 75px;
+  width: 100%;
+  box-sizing: border-box;
+  padding: 0 15px;
+  position: fixed;
+  top: 0;
+  display: flex;
+  align-items: center;
+  background: skyblue;
+  color: white;
+}
+
+.auth-flex {
+  height: 100vh;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.auth-form, .user-info {
+  height: 300px;
+  width: 250px;
+  border-radius: 10px;
+  background: skyblue;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.auth-form input {
+  height: 35px;
+  width: 90%;
+  font-size: 18px;
+}
+
+.auth-form button {
+  height: 35px;
+  width: 90%;
+  font-size: 18px;
+}
+
+.dashboard {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
